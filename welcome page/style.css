@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #185adb;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.guide-btn, .secondary-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: #185adb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.18s;
+  margin-top: 1rem;
+}
+
+.guide-btn:hover, .guide-btn:focus {
+  background: #11306b;
+}
+.secondary-btn, .guide-btn.secondary {
+  background: #fff;
+  color: #185adb;
+  border: 2px solid #185adb;
+  margin-left: 10px;
+}
+.secondary-btn:hover, .guide-btn.secondary:hover, .secondary-btn:focus, .guide-btn.secondary:focus {
+  background: #f1f1f1;
+  color: #11306b;
+  border-color: #11306b;
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem 2rem 1.5rem 2rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(24, 90, 219, 0.07);
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+label {
+  font-weight: 500;
+  color: #185adb;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  padding: 0.8rem;
+  border-radius: 7px;
+  border: 1px solid #185adb;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+  border: 1.5px solid #ffb200;
+}
