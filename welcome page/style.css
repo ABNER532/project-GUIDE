@@ -12,6 +12,7 @@ body {
 .page {
   width: 100vw;
   height: 100vh;
+  background-image: url('jan.jpg');
   background: #fff;
   display: flex;
   flex-direction: column;
